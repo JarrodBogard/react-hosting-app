@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <h2>My Buttons</h2>
       <Button label="Submit" handleClick={handleSubmit} />
       <Button label="Clear" handleClick={handleClear} />
       <Button />
